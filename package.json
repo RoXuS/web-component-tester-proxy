@@ -1,0 +1,36 @@
+{
+  "name": "web-component-tester-proxy",
+  "version": "1.0.0",
+  "description": "A minimal proxy plugin for web-component-tester",
+  "main": "lib/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoXuS/web-component-tester-proxy.git"
+  },
+  "keywords": [
+    "web-component-tester",
+    "proxy",
+    "wct"
+  ],
+  "author": "Julien Rousseau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoXuS/web-component-tester-proxy/issues"
+  },
+  "homepage": "https://github.com/RoXuS/web-component-tester-proxy",
+  "dependencies": {
+    "express-http-proxy": "^0.7.2"
+  },
+  "wct-plugin": {
+    "cli-options": {
+      "routes": {
+        "help": "List of routes to proxify",
+        "full": "routes",
+        "list": true
+      }
+    }
+  }
+}
