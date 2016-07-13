@@ -3,7 +3,7 @@ Web-Component-Tester-Proxy
 
 A minimal proxy plugin for web-component-tester
 
-## Installation from a patched release 0.10.1
+## Installation
 
 ```sh
 npm install --save-dev web-component-tester-proxy
