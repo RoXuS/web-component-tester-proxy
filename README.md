@@ -21,9 +21,9 @@ To proxy URLS starting with '/api' to the host:
 module.exports = {
   plugins: {
     proxy: {
-      routes: [
+      routes: [{
 	 '/api': 'http://myapi',
-      ]
+      }]
     }
   }
 }
